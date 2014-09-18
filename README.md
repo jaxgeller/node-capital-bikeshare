@@ -12,22 +12,26 @@
 
 ##### `getAll(callback)`
 + `callback(err, data)`
++ returns all stations
 
 
 ##### `getById(id, callback)`
 + `id` number
 + `callback(err, data)`
++ returns the station that matches the given id
 
 
 ##### `getByName(name, callback`
 + `name` string
 + `callback(err, data)`
++ returns the station that matches the given name
 
 
 ##### `getByClosest(location, limit, callback)`
-+ `location` obj {latitude: number, longitude: number}
++ `location` obj `{latitude: number, longitude: number}`
 + `limit` number 
 + `callback(err, data)`
++ returns stations within the limit that are closest to the location given. Uses haversine geo-distance formula. 
 
 
 
