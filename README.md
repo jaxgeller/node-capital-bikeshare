@@ -9,24 +9,24 @@
 
 ### API
 
-+ `getAll(callback)`
-+ + --> `callback(err, data)`
+#### `getAll(callback)`
++ `callback(err, data)`
 
 
-+ `getById(id, callback)`
-+ + --> `id` number
-+ + --> `callback(err, data)`
+#### `getById(id, callback)`
++ `id` number
++ `callback(err, data)`
 
 
-+ `getByName(name, callback`
-+ + --> `name` string
-+ + --> `callback(err, data)`
+#### `getByName(name, callback`
++ `name` string
++ `callback(err, data)`
 
 
-+ `getByClosest(location, limit, callback)`
-+ + --> `location` obj {latitude: number, longitude: number}
-+ + --> `limit` number 
-+ + --> `callback(err, data)`
+#### `getByClosest(location, limit, callback)`
++ `location` obj {latitude: number, longitude: number}
++ `limit` number 
++ `callback(err, data)`
 
 
 
