@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "",
   "dependencies": {
+    "node-geo-distance": "^1.1.0",
     "request": "^2.44.0",
     "xml2js": "^0.4.4"
   },
