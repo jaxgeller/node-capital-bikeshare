@@ -7,29 +7,31 @@
 `$ npm install capital-bike-share-js --save`
 
 
+---
 ### API
 
-#### `getAll(callback)`
+##### `getAll(callback)`
 + `callback(err, data)`
 
 
-#### `getById(id, callback)`
+##### `getById(id, callback)`
 + `id` number
 + `callback(err, data)`
 
 
-#### `getByName(name, callback`
+##### `getByName(name, callback`
 + `name` string
 + `callback(err, data)`
 
 
-#### `getByClosest(location, limit, callback)`
+##### `getByClosest(location, limit, callback)`
 + `location` obj {latitude: number, longitude: number}
 + `limit` number 
 + `callback(err, data)`
 
 
 
+---
 ### Examples
 
 ```js
