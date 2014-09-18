@@ -1,5 +1,3 @@
-var request = require('request');
-var parseString = require('xml2js').parseString;
 var geo = require('node-geo-distance');
 
 var helpers = require('./helpers');

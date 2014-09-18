@@ -1,4 +1,6 @@
 var url = 'https://www.capitalbikeshare.com/data/stations/bikeStations.xml';
+var request = require('request');
+var parseString = require('xml2js').parseString;
 
 exports.get = function(done) {
   request(url, function(err, res, body) {

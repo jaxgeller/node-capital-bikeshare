@@ -10,8 +10,9 @@
     "xml2js": "^0.4.4"
   },
   "devDependencies": {
-    "mocha": "*",
-    "assert": "*"
+    "assert": "*",
+    "chai": "^1.9.1",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha"
