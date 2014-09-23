@@ -15,6 +15,11 @@
 + returns all stations
 
 
+#### `getMultiple(ids, callback)`
++ `ids` array of strings - the ids of the bike stations you want
++ `callback(err, data)`
++ returns the station that matches the given id
+
 ##### `getById(id, callback)`
 + `id` number
 + `callback(err, data)`

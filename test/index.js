@@ -36,6 +36,18 @@ describe('Bikeshare api', function() {
     });
   });
 
+  it('should be able to get a select few stations', function(done) {
+    api.getMultiple(['30', '40', '41', '222'], function(err, data) {
+      if (err) return done(err);
+      data.should.be.an.array;
+      data[0].id[0].should.eql('30');
+      data[1].id[0].should.eql('40');
+      data[2].id[0].should.eql('41');
+      data[3].id[0].should.eql('222');
+      return done();
+    });
+  });
+
   it('should be able to get a station by id', function(done) {
     api.getById(30, function(err, data) {
       if (err) return done(err);

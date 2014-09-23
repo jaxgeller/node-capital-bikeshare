@@ -1,6 +1,6 @@
 {
-  "name": "Capital-Bike-Share.js",
-  "version": "1.0.0",
+  "name": "capital-bike-share-js",
+  "version": "1.1.0",
   "description": "Capital Bike Share Api",
   "keywords": ["capital bikeshare", "bikeshare", "bikeshare api"],
   "main": "index.js",

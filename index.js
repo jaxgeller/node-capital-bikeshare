@@ -12,6 +12,25 @@ exports.getAll = function(done) {
   });
 }
 
+exports.getMultiple = function(ids, done) {
+  helpers.get(function(err, data) {
+    if (err) return done(err);
+    helpers.parseXml(data, function(err, parsed) {
+      if (err) return done(err);
+      var holder = [];
+      var max = parsed.stations.station.length;
+      for (var i=0; i <max; i++) {
+        for (var j in ids) {
+          if (ids[j] === parsed.stations.station[i].id[0]) {
+            holder.push(parsed.stations.station[i]);
+          }
+        }
+      }
+      return done(null, holder);
+    });
+  });
+}
+
 
 exports.getById = function(id, done) {
   helpers.get(function(err, data) {
