@@ -1,10 +1,10 @@
-# Capital-Bike-Share.js
+# node-capital-bikeshare
 
-[![Build Status](https://travis-ci.org/jacksongeller/Capital-Bike-Share.js.svg)](https://travis-ci.org/jacksongeller/Capital-Bike-Share.js)
+[![Build Status](https://travis-ci.org/jacksongeller/node-capital-bikeshare.svg)](https://travis-ci.org/jacksongeller/node-capital-bikeshare)
 
 
 ###Install
-`$ npm install capital-bike-share-js --save`
+`$ npm install node-capital-bikeshare --save`
 
 
 ---
